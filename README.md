@@ -10,6 +10,8 @@ In this analysis, we combined several GIS layers and other publicly available da
 
 * How much of this "spot zoning" development has taken place in areas at high risk for forest fires? We use several different definitions to capture this risk, including whether the zoning change occured within the wildland-urban interface (WUI) zone.
 
+Interested readers may also want to check out [an in-depth analysis here](https://www.centraloregonlandwatch.org/update/2025/1/15/the-case-against-spot-zoning) by [Central Oregon LandWatch](https://www.centraloregonlandwatch.org).
+
 ## Data sources and subsetting
 
 * **Comprehensive plan amendment and zoning change data from the Deschutes County Community Development Department:** We downloaded the available data for all land use permit applications submitted to the county between January 1, 2004, to September 22, 2025, using the county's [permit query tool](https://www.deschutes.org/cd/page/permit-query). These data are saved as a Microsoft Excel file named [landusepermits_2004-2025.xlsx](data/raw/landusepermits_2004-2025.xlsx).
