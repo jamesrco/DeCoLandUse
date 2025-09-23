@@ -4,7 +4,7 @@ In September 2025, S2S LLC conducted an analysis of zoning and land use trends i
 
 ## Objectives
 
-We combined several GIS layers and other publicly available data to answer several questions:
+We combined several GIS layers and other publicly available data to answer two key questions:
 
 * How much "spot zoning" has occured in the County? "Spot zoning" is defined as a comprehensive plan amendment and zoning change that results in the conversion of land zoned for Exclusive Farm Use (EFU), Forest Use (F1/F2), or Surface Mining (SM) to Rural Residential (RR-10), a Rural Residential Exception Area (RREA), Multiple Use Agricultural (MUA-10) or, when resulting in low-density development inconsistent with the state's land use planning goals, to Rural Industrial (RI). Deschutes County base zones are [defined here](https://www.deschutes.org/cd/page/efu-f1-mua10-rc-ri-rr10-uar10-base-zones) on the County website. For purposes of this analysis, zoning changes required for the annexation of land into a city's Urban Growth Boundary under Oregon's [comprehensive land use planning system](https://www.oregon.gov/lcd/OP/Pages/index.aspx) are *not* considered "spot zoning" as these zoning changes are presumed to be consistent with the state's land use planning goals. 
 
