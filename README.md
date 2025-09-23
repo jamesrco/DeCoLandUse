@@ -12,12 +12,12 @@ In this analysis, we combined several GIS layers and other publicly available da
 
 ## Data sources and subsetting
 
-* **Comprehensive plan amendment and zoning change data from the Deschutes County Community Development Department:** We downloaded the available data for all land use permit applications submitted to the county between January 1, 2004, to September 22, 2025, using the county's [permit query tool](https://www.deschutes.org/cd/page/permit-query). These data are saved as a Microsoft Excel file named (2004-2025)[data/raw/landusepermits_2004-2025].
+* **Comprehensive plan amendment and zoning change data from the Deschutes County Community Development Department:** We downloaded the available data for all land use permit applications submitted to the county between January 1, 2004, to September 22, 2025, using the county's [permit query tool](https://www.deschutes.org/cd/page/permit-query). These data are saved as a Microsoft Excel file named [landusepermits_2004-2025.xlsx](data/raw/landusepermits_2004-2025.xlsx).
 
 	* **Subsetting:** We then subsetted this dataset to only those approved and pending applications which met our definition of "spot zoning" (i.e., those resulting in zoning changes from EFU, F1/F2 or SM to RR-10, MUA-10 or, when resulting in low-density development inconsistent with the state's land use planning goals, to RI). We created two subsets: [landusepermits_SpotZoned.csv](data/derived/landusepermits_SpotZoned.csv), which contains data for all applications, and [landusepermits_SpotZoned_noSM.csv](data/derived/landusepermits_SpotZoned_noSM.csv), which excludes those applications involving land previously zoned for surface mining.
-	* **Applications lacking details:** For applications where the proposed zoning change was not immediately discernible from the county's permit query data, we downloaded and reviewed the applicable application and/or approval documents (saved, and then stored here)[data/raw/permitdata/].   
+	* **Applications lacking details:** For applications where the proposed zoning change was not immediately discernible from the county's permit query data, we downloaded and reviewed the applicable application and/or approval documents (saved, and then stored [here](data/raw/permitdata/)).   
 
-* **Deschutes County tax lot data**: We downloaded a GIS layer containing county tax lot data from [https://hub.arcgis.com/maps/901cdd4a5ca24cc3b72cc8e3e0f11f02/about](https://hub.arcgis.com/maps/901cdd4a5ca24cc3b72cc8e3e0f11f02/about). This layer is saved as (Taxlots_5538463434383085955)[data/raw/Taxlots_5538463434383085955].
+* **Deschutes County tax lot data**: We downloaded a GIS layer containing county tax lot data from [https://hub.arcgis.com/maps/901cdd4a5ca24cc3b72cc8e3e0f11f02/about](https://hub.arcgis.com/maps/901cdd4a5ca24cc3b72cc8e3e0f11f02/about). This layer is saved as [Taxlots_5538463434383085955](data/raw/Taxlots_5538463434383085955).
 
 * **Wildfire risk**: We downloaded several different datasets that contained estimates of wildfire risk:
 
