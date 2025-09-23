@@ -41,7 +41,7 @@ In this analysis, we combined several GIS layers and other publicly available da
 
 	* Using the more restrictive dataset (i.e., excluding conversions from "SM"), we identified **26** unique pending or approved permit applications that met our definition of spot zoning, affecting **66** different tax lots that accounted for **4,386 acres** within the County. This included some permit applications for changes in zoning to public land.
 
-* **Wildfire risk**: We then interrogated the spot-zoned taxlot data to assess what fraction of approved or pending applications for comprehensive plan amendments and zoning changes were in areas of high wildfire risk. We performed our analysis in each case using the QGIS "Overlap analysis" tool. In our initial analysis, we used two different definitions of risk: the SB 762/SB 80 WUI boundary, and then Deschutes County "Zoning Wildfire Hazard" layer. *We did not use the Oregon CWPP definitions in our initial analysis due to some difficulty opening and working with the .gdb files.*
+* **Wildfire risk**: We then interrogated the spot-zoned taxlot data to assess what fraction of approved or pending applications for comprehensive plan amendments and zoning changes were in areas of high wildfire risk. We performed our analysis in each case using the QGIS "Overlap analysis" tool. In our initial analysis, we used two different definitions of risk: the SB 762/SB 80 WUI boundary, and then the Deschutes County "Zoning Wildfire Hazard" layer. *We did not use the Oregon CWPP definitions in our initial analysis due to some difficulty opening and working with the .gdb files.*
 
 	* **Summary of findings**: Spot zoning enhances our community's collective exposure to risk from wildfire. Some specific findings:
 
