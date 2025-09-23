@@ -1,4 +1,4 @@
-# DeColanduse
+# DeCoLandUse
 
 In September 2025, S2S LLC conducted an analysis of zoning and land use trends in Deschutes County, Oregon.
 
