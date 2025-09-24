@@ -35,7 +35,7 @@ Interested readers may also want to check out [an in-depth analysis here](https:
 
 	* **Public land**: Downloaded from the [Deschutes County GIS portal](https://data.deschutes.org) and saved [here](data/raw/Public_Lands_8302678428774745135).
 
-## Analysis
+## Analysis (ver 1.0)
 
 * **Spot-zoned taxlots**: Using open source software (QGIS), we created two shapefiles containing taxlots for which spot zoning changes have been approved or are pending: [all_SpotZoned](data/derived/all_SpotZoned) is a layer containing all taxlots; [all_SpotZoned_noSM](data/derived/all_SpotZoned_noSM) is the same layer, but excluding those taxlots with an existing "SM" (Surface Mining) zone code. We created these shapefiles by joining the previously subsetted permit data to the Deschutes County tax lot layer, indexing on the taxlot ID. Findings (also available in table form [in this Excel spreadsheet](data/results/Wildfire_risk_analysis_results.xlsx)):
 
@@ -61,3 +61,8 @@ Interested readers may also want to check out [an in-depth analysis here](https:
 
 	**Figure 2.** All pending and approved spot zoning applications in Deschutes County, 2004-2025. Green color: Taxlots converted from EFU or F1/F2 (exclusive farm or forest use) to RR-10, a RREA, MUA-10 or RI. Blue color: Taxlots converted from SM (surface mining use) to RR-10, a RREA, MUA-10 or RI. Orange shading indicates extent of Deschutes County's own "Zoning Wildfire Hazard" area. Basemap shows county tax lots. Between 3687-4950 acres of land approved or pending conversion through spot zoning falls within the orange wildfire hazard zone.
 
+## Future/pending changes
+
+* **Incorporate tracts left out of current analysis**: These include
+
+	* Taxlots 1812210000200 / 1812210000300: Permit applications 247-25-000428-PA, 247-25-000429-ZC, 247-25-000428-PA, 247-25-000429-ZC
