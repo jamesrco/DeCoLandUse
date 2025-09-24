@@ -47,7 +47,7 @@ Interested readers may also want to check out [an in-depth analysis here](https:
 
 	* **Summary of findings**: Spot zoning enhances our community's collective exposure to risk from wildfire. Some specific findings:
 
-		* Using either definition of risk, or either definition of spot zoning (i.e., with or without taxlots with an "SM" zone code), **80-93% of applications for spot zoning included one or more taxlots in a wildfire risk zone**.
+		* Depending on the definition of risk and how narrowly or expansively we defined spot zoning (i.e., whether or not we included taxlots with an "SM" zone code), between **80-93% of applications for spot zoning included one or more taxlots in a wildfire risk zone**.
 		* Since 2004, spot zoning has resulted in development of between **1304-1637 acres** of county land within the SB 762/SB 80 WUI boundary; if the county's own definition of wildfire hazard risk is used, that number jumps to between **3687-4950 acres** subject to development within a wildfire hazard area.
 		* Roughly **one-third (28-30%) of all the land included in spot zoning applications since 2004 falls within the SB 762/SB 80 WUI boundary**. In the case of at least 11 individual spot zoning applications, **the entire project — 100% of the land — fell within the WUI boundary**.
 
