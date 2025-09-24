@@ -39,7 +39,7 @@ Interested readers may also want to check out [an in-depth analysis here](https:
 
 * **Spot-zoned taxlots**: Using open source software (QGIS), we created two shapefiles containing taxlots for which spot zoning changes have been approved or are pending: [all_SpotZoned](data/derived/all_SpotZoned) is a layer containing all taxlots; [all_SpotZoned_noSM](data/derived/all_SpotZoned_noSM) is the same layer, but excluding those taxlots with an existing "SM" (Surface Mining) zone code. We created these shapefiles by joining the previously subsetted permit data to the Deschutes County tax lot layer, indexing on the taxlot ID. Findings (also available in table form [in this Excel spreadsheet](data/results/Wildfire_risk_analysis_results.xlsx)):
 
-	* Using the more expansive dataset (i.e., including conversions from "SM"), we identified **32** unique pending or approved permit applications that met our definition of spot zoning, affecting **87** different tax lots that accounted for **5,134 acres** within the County. This included some permit applications for changes in zoning to public land. 
+	* Using the more expansive dataset (i.e., including conversions from "SM"), we identified **31** unique pending or approved permit applications that met our definition of spot zoning, affecting **89** different tax lots that accounted for **5,806 acres** within the County. This included some permit applications for changes in zoning to public land. 
 
 	* Using the more restrictive dataset (i.e., excluding conversions from "SM"), we identified **26** unique pending or approved permit applications that met our definition of spot zoning, affecting **66** different tax lots that accounted for **4,386 acres** within the County. This included some permit applications for changes in zoning to public land.
 
@@ -47,17 +47,17 @@ Interested readers may also want to check out [an in-depth analysis here](https:
 
 	* **Summary of findings**: Spot zoning enhances our community's collective exposure to risk from wildfire. Some specific findings:
 
-		* Using either definition of risk, or either definition of spot zoning (i.e., with or without taxlots with an "SM" zone code), **80-84% of applications for spot zoning included one or more taxlots in a wildfire risk zone**.
-		* Since 2004, spot zoning has resulted in development of **1300-1400 acres** of county land within the SB 762/SB 80 WUI boundary; if the county's own definition of wildfire hazard risk is used, that number jumps to between **3687-4385 acres** subject to development within a wildfire hazard area.
-		* Roughly **one-third (27-29%) of all the land included in spot zoning applications since 2004 falls within the SB 762/SB 80 WUI boundary**. In the case of at least 11 individual spot zoning applications, **the entire project — 100% of the land — fell within the WUI boundary**.
+		* Using either definition of risk, or either definition of spot zoning (i.e., with or without taxlots with an "SM" zone code), **80-93% of applications for spot zoning included one or more taxlots in a wildfire risk zone**.
+		* Since 2004, spot zoning has resulted in development of between **1304-1637 acres** of county land within the SB 762/SB 80 WUI boundary; if the county's own definition of wildfire hazard risk is used, that number jumps to between **3687-4950 acres** subject to development within a wildfire hazard area.
+		* Roughly **one-third (28-30%) of all the land included in spot zoning applications since 2004 falls within the SB 762/SB 80 WUI boundary**. In the case of at least 11 individual spot zoning applications, **the entire project — 100% of the land — fell within the WUI boundary**.
 
 	* **Full results:** See the second tab of [this Excel file](data/results/Wildfire_risk_analysis_results.xlsx) for full results in table format. Two basic plots are show below:
 
 	![](data/results/All_spotZone_WUI.png)
 
-	**Figure 1.** All pending and approved spot zoning applications in Deschutes County, 2004-2025. Green color: Taxlots converted from EFU or F1/F2 (exclusive farm or forest use) to RR-10, a RREA, MUA-10 or RI. Blue color: Taxlots converted from SM (surface mining use) to RR-10, a RREA, MUA-10 or RI. Red shading indicates extent of wildland-urban interface (WUI) zone according to the SB 762/SB 80 WUI definition. Basemap shows county tax lots. Between 1300-1400 acres of land approved or pending conversion through spot zoning falls within the red WUI zone.
+	**Figure 1.** All pending and approved spot zoning applications in Deschutes County, 2004-2025. Green color: Taxlots converted from EFU or F1/F2 (exclusive farm or forest use) to RR-10, a RREA, MUA-10 or RI. Blue color: Taxlots converted from SM (surface mining use) to RR-10, a RREA, MUA-10 or RI. Red shading indicates extent of wildland-urban interface (WUI) zone according to the SB 762/SB 80 WUI definition. Basemap shows county tax lots. Between 1304-1637 acres of land approved or pending conversion through spot zoning falls within the red WUI zone.
 
 	![](data/results/All_spotZone_DeCo_ZoneWildfireHaz.png)
 
-	**Figure 2.** All pending and approved spot zoning applications in Deschutes County, 2004-2025. Green color: Taxlots converted from EFU or F1/F2 (exclusive farm or forest use) to RR-10, a RREA, MUA-10 or RI. Blue color: Taxlots converted from SM (surface mining use) to RR-10, a RREA, MUA-10 or RI. Orange shading indicates extent of Deschutes County's own "Zoning Wildfire Hazard" area. Basemap shows county tax lots. Between 3687-4385 acres of land approved or pending conversion through spot zoning falls within the orange wildfire hazard zone.
+	**Figure 2.** All pending and approved spot zoning applications in Deschutes County, 2004-2025. Green color: Taxlots converted from EFU or F1/F2 (exclusive farm or forest use) to RR-10, a RREA, MUA-10 or RI. Blue color: Taxlots converted from SM (surface mining use) to RR-10, a RREA, MUA-10 or RI. Orange shading indicates extent of Deschutes County's own "Zoning Wildfire Hazard" area. Basemap shows county tax lots. Between 3687-4950 acres of land approved or pending conversion through spot zoning falls within the orange wildfire hazard zone.
 
